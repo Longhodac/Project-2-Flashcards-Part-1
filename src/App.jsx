@@ -84,6 +84,13 @@ const App = () => {
               <h1 className='app-title'>
                 Machine learning Flashcards
               </h1>
+              <p className='app-description'>
+                Practice your knowledge of machine learning concepts with these flashcards. Click on the card to flip it and see the answer.
+              </p> 
+              <div className='app-stats'>
+                <span>Total Cards: {flashCards.length}</span>
+                <span>Current: {currCardsIndex + 1} </span>  
+              </div> 
             </header>
 
             <Card
